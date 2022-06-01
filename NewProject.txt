@@ -1945,7 +1945,7 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							v,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
+							{BackgroundColor3 = Color3.fromRGB(47, 49, 54)}
 						):Play()
 						TweenService:Create(
 							Server,
@@ -2200,7 +2200,7 @@ function DiscordLib:Window(text)
 				ToggleTitle.Size = UDim2.new(0, 200, 0, 30)
 				ToggleTitle.Font = Enum.Font.Gotham
 				ToggleTitle.Text = text
-				ToggleTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
+				ToggleTitle.TextColor3 = Color3.fromRGB(255, 0, 0)
 				ToggleTitle.TextSize = 14.000
 				ToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
 
