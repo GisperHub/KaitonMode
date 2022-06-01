@@ -2200,7 +2200,7 @@ function DiscordLib:Window(text)
 				ToggleTitle.Size = UDim2.new(0, 200, 0, 30)
 				ToggleTitle.Font = Enum.Font.Gotham
 				ToggleTitle.Text = text
-				ToggleTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
+				ToggleTitle.TextColor3 = Color3.fromRGB(255, 0, 0)
 				ToggleTitle.TextSize = 14.000
 				ToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -2346,7 +2346,7 @@ function DiscordLib:Window(text)
 
 				CurrentValueFrame.Name = "CurrentValueFrame"
 				CurrentValueFrame.Parent = SliderFrame
-				CurrentValueFrame.BackgroundColor3 = Color3.fromRGB(114, 137, 218)
+				CurrentValueFrame.BackgroundColor3 = Color3.fromRGB(102, 0, 255)
 				CurrentValueFrame.Size = UDim2.new((start or 0) / max, 0, 0, 8)
 
 				CurrentValueFrameCorner.Name = "CurrentValueFrameCorner"
